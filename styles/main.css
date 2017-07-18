@@ -1,32 +1,37 @@
 body {
     margin: 0;
     background-color: #333333;
+    background-image: url(../assets/images/backgroundcoffee.jpg);
+    background-attachment: fixed;
 
+    background-position: center top;
 }
 
-.bannerpic {
-    background-image: url(../assets/images/desertvan.jpg);
-    background-repeat: no-repeat;
-    position: relative;
-    height: 600px;
-    margin-bottom: 800px;
-}
+
 
 .box {
-    position: fixed;
-    height: 200px;
-    background-color: black;
-    width: 100000px;
+    position: relative;
+    height: 300px;
+
     margin-top: 800px;
     margin-bottom: 0px;
+}
+
+.box h1 {
+    font-size: 100px;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 200px;
 }
 
 .selfie {
     background-image: url(../assets/images/citytosea.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     position: relative;
-    margin-top: 00px;
-    height: 1000px;
+    margin-top: 100px;
+    height: 1400px;
+
 }
 
 .bottom {
