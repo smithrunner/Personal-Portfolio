@@ -9,6 +9,7 @@ body {
 
 .navbar .logo {
     image-orientation: left;
+
 }
 
 .navbar .navbar-link {
@@ -16,7 +17,7 @@ body {
 }
 
 .selfie {
-    background-image: url(../assets/images/citytosea.jpg);
+    background-image: url(../assets/images/desertvan.jpg);
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
