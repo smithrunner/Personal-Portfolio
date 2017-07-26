@@ -10,14 +10,14 @@ body {
   background-attachment: fixed;
   background-size: contain;
   background-repeat: no-repeat;
-
+  width: fill;
 
 }
 
 .parallax h1 {
     position: fixed;
     color: white;
-    padding-left: 30%;
+    text-align: center;
     padding-top: 60%;
     z-index: -1;
 }
@@ -25,7 +25,7 @@ body {
 .parallax h2 {
     position: fixed;
     color: white;
-    padding-left: 10%;
+    text-align: left;
     padding-top: 10%;
     z-index: -1;
 }
@@ -34,7 +34,7 @@ body {
 .selfie {
     background-image: url(../assets/images/backgroundcoffee.jpg);
     background-position: absolute;
-    height: 80%;
+    height: 90%;
     z-index: 1;
 }
 
@@ -47,7 +47,7 @@ body {
   background-repeat: no-repeat;
 
   background-position: center;
-  margin-top: 30%;
+  margin-top: 80%;
 
 }
 
