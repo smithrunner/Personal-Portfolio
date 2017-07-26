@@ -1,33 +1,47 @@
 body {
-    margin: 0;
-    background-color: #333333;
-    background-image: url(../assets/images/backgroundcoffee.jpg);
-    background-attachment: fixed;
-
-    background-position: center top;
+    background-color: black;
 }
 
-.navbar .logo {
-    image-orientation: left;
-
+.parallax {
+  margin: 0;
+  background-image: url(../assets/images/desertvan.jpg);
+  height: 1000px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.navbar .navbar-link {
-    text-align: right;
+.parallax h1 {
+    position: fixed;
+    color: white;
+    padding-left: 60%;
+    padding-top: 20%;
 }
+
+
 
 .selfie {
-    background-image: url(../assets/images/desertvan.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    height: 800px;
+    background-image: url(../assets/images/backgroundcoffee.jpg);
+    background-position: absolute;
+    height: 1000px;
 }
 
-.selfie h1 {
-    font-size: 100px;
-    text-align: center;
-    height: 200px;
-    margin-bottom: 200px;
+
+
+.logo {
+  background-image: url(../assets/images/logoSam.png);
+  height: 700px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position: absolute;
+  margin-top: 100px;
+  z-index: 2;
+}
+
+.links h1  {
     color: white;
+    padding-top: 50%;
+    padding-left: 36%;
 }
