@@ -90,4 +90,19 @@ body, html {
     padding-top: 3%;
 }
 
+@media (max-width: 640px) {
+    .education h1,
+    .experience h1,
+    .footer h1 {
+        font-size: 1rem;
+    }
+
+    .education h1,
+    .experience h1 {
+        padding-top: 25%;
+    }
+
+
+}
+
 }
