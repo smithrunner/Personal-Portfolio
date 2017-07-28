@@ -1,47 +1,132 @@
-body {
-    background-color: black;
+body, html {
+  height: 100%;
+  margin: 0;
 }
 
 .parallax {
-  margin: 0;
-  background-image: url(../assets/images/desertvan.jpg);
-  height: 1000px;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+    background-image: url('../assets/images/talltree.jpg');
+    height: 90%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.parallax h1 {
-    position: fixed;
+
+.parallax2 {
+    background-image: url('../assets/images/snowbike.jpg');
+    height: 70%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url('../assets/images/oceanview.jpg');
+    height: 60%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.textbox {
+    height: contain;
+    width: fill;
+    background-image: url('../assets/images/backgroundcoffee.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.experience,
+.education {
+    height: 400px;
+}
+
+.experience h1,
+.education h1 {
     color: white;
-    padding-left: 60%;
-    padding-top: 20%;
+    margin-top: 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Fjalla One', sans-serif;
 }
 
-
-
-.selfie {
-    background-image: url(../assets/images/backgroundcoffee.jpg);
-    background-position: absolute;
-    height: 1000px;
+.education h1 {
+    padding-top: 2.5%;
 }
-
-
 
 .logo {
-  background-image: url(../assets/images/logoSam.png);
-  height: 700px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-position: absolute;
-  margin-top: 100px;
-  z-index: 2;
+    height: 30%;
+    width: fill;
+    background-image: url('../assets/images/texas.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 0;
 }
 
-.links h1  {
+.logo h1 {
     color: white;
-    padding-top: 50%;
-    padding-left: 36%;
+    text-align: right;
+    padding-right: 8rem;
+    font-size: 2rem;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+.bornhere h1 {
+    color: white;
+    margin: 0;
+}
+
+.footer {
+    height: 10%;
+    width: 100%;
+    margin: 0;
+    background-image: url('../assets/images/backgroundcoffee.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Fjalla One', sans-serif;
+    padding-top: 3%;
+}
+
+.footer h1 a {
+    color: white;
+}
+
+.footer h1 a:hover {
+    color: grey;
+}
+
+@media (max-width: 640px) {
+    .education h1,
+    .experience h1,
+    .footer h1 {
+        font-size: 1rem;
+    }
+
+    .education h1,
+    .experience h1 {
+        padding-top: 25%;
+    }
+
+
+}
+
 }

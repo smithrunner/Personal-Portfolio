@@ -36,8 +36,8 @@ body, html {
     height: contain;
     width: fill;
     background-image: url('../assets/images/backgroundcoffee.jpg');
-    background-size: contain;
-
+    background-size:cover;
+    background-repeat: no-repeat;
     background-position: center;
     margin: 0;
 }
@@ -77,7 +77,8 @@ body, html {
     width: 100%;
     margin: 0;
     background-image: url('../assets/images/backgroundcoffee.jpg');
-    background-size: contain;
+    background-size:cover;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -88,6 +89,14 @@ body, html {
     font-size: 2rem;
     font-family: 'Fjalla One', sans-serif;
     padding-top: 3%;
+}
+
+.footer h1 a {
+    color: white;
+}
+
+.footer h1 a:hover {
+    color: grey;
 }
 
 @media (max-width: 640px) {
