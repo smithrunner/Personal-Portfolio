@@ -116,12 +116,11 @@ body, html {
         font-size: 0.8rem;
     }
 
-    .education h1,
-    .experience h1 {
+    .education h1 {
         padding-top: 25%;
     }
 
-    .footer h1 {
+    .experience h1 {
         padding-top: 1%;
     }
 
