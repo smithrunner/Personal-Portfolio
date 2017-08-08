@@ -111,13 +111,16 @@ body, html {
 @media (max-width: 1050px) {
     .education h1,
     .experience h1,
-    .footer h1,
     .logo h1 {
         font-size: 0.8rem;
     }
 
+    .footer h1 {
+        font-size: 1.3rem;
+    }
+
     .education h1 {
-        padding-top: 25%;
+        padding-top: 15%;
     }
 
     .experience h1 {
