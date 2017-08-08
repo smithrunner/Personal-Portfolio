@@ -44,7 +44,10 @@ body, html {
     padding-bottom: 3rem;
 }
 
-.experience,
+.experience {
+    height: 125px;
+}
+
 .education {
     height: 400px;
 }
@@ -54,7 +57,7 @@ body, html {
     color: white;
     margin-top: 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-family: 'Fjalla One', sans-serif;
 }
 
@@ -76,7 +79,7 @@ body, html {
     color: white;
     text-align: right;
     padding-right: 8rem;
-    font-size: 2rem;
+    font-size: 1.1rem;
     font-family: 'Fjalla One', sans-serif;
 }
 
@@ -110,15 +113,26 @@ body, html {
     color: white;
 }
 
+.experience h1 a,
+.logo h1 a {
+    color: grey;
+}
+
+.experience h1 a:hover,
+.logo h1 a:hover {
+    color: black;
+}
+
 .footer h1 a:hover {
     color: grey;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1050px) {
     .education h1,
     .experience h1,
-    .footer h1 {
-        font-size: 1rem;
+    .footer h1,
+    .logo h1 {
+        font-size: 0.8rem;
     }
 
     .education h1,
@@ -126,7 +140,5 @@ body, html {
         padding-top: 25%;
     }
 
-
-}
 
 }
