@@ -29,6 +29,17 @@ body {
     color: white;
 }
 
+.experience {
+  width: 100%;
+  background-color: white;
+  opacity: 0.3;
+}
+
+.experience h1 {
+  color: black;
+  font-family: 'Fjalla One', sans-serif;
+}
+
 .footer h1 a:hover {
     color: grey;
 }
