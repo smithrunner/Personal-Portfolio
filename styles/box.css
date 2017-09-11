@@ -8,7 +8,7 @@ body, html {
   width: 100%;
   height: 100%;
   padding-left: 0%;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 .box {
@@ -23,10 +23,28 @@ body, html {
 .title {
   background-color: grey;
   width: 100%;
-
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
-  font-size: 800%;
+  font-size: 600%;
+  color: black;
+  text-decoration: none;
+}
+
+.boxheader {
+  display: block;
+  background-color: white;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  opacity: 0.6;
+}
+
+.titleheader {
+  background-color: grey;
+  width: 100%;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  font-size: 680%;
   color: black;
   text-decoration: none;
 }

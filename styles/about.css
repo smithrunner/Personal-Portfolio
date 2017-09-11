@@ -5,7 +5,7 @@ body, html {
 
 .parallax {
     background-image: url('../assets/images/talltree.jpg');
-    height: 90%;
+    height: 80%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,13 +43,6 @@ body, html {
     padding-bottom: 3rem;
 }
 
-.experience {
-    height: 125px;
-}
-
-.education {
-    height: 400px;
-}
 
 .experience h1,
 .education h1 {
