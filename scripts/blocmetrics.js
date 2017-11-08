@@ -1,7 +1,7 @@
 var blocmetrics = {};
 
 blocmetrics.report = function(eventName){
-  var event = {event: {name: eventName}};
+  var event = {event: {event_name: eventName}};
 
   var request = new XMLHttpRequest();
 
